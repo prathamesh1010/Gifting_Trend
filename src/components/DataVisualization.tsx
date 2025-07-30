@@ -90,7 +90,7 @@ export const TopKeywordsChart = ({ articles }: { articles: ArticleData[] }) => {
           <Tag className="w-5 h-5 text-emerald-500" />
           Top Keywords
         </CardTitle>
-        <CardDescription>Most frequently occurring keywords in articles</CardDescription>
+        <CardDescription>See the most frequently occurring keywords in articles</CardDescription>
       </CardHeader>
       <CardContent className="pt-4">
         <ResponsiveContainer width="100%" height={300}>
